@@ -7,7 +7,7 @@ from colorama import Fore, Style, Back
 # Load the image
 image = Image.open("C:/snap2it/capture.PNG")
 
-# Recognize text from the image -- PATH FOR TESSERACT***
+# Recognize text from the image -- ***PATH FOR TESSERACT***
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 text = pytesseract.image_to_string(image)
 
@@ -38,10 +38,6 @@ print(Fore.GREEN + "Text copied to clipboard.")
 print(Style.RESET_ALL)
 
 #OLLAMA
-# Remove the "#"s below to activate ollama
+# Remove the "#" below to activate ollama
 
-#print(Back.BLUE)
-#print(Style.BRIGHT)
-#print(Fore.WHITE + "Activating ollama")
-#print(Style.RESET_ALL)
-#subprocess.run(["python", "C:/snap2it/API_ollama.py"])
+#subprocess.run(["python", "C:/snap2it/ai_prompt.py"])
