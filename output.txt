@@ -1,0 +1,4 @@
+c:\Program Files\WindowsAp X = + v
+
+(Alt + Print Screen) to take a screenshot of the active window.
+(Alt + Insert) to convert to text.
