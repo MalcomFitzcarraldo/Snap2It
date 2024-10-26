@@ -61,7 +61,7 @@ ECHO Confirm once you have installed/skippied.
 PAUSE
 CLS
 ECHO The following Python Modules are required.
-ECHO pillow, colorama, pyperclip, pytesseract, keyboard, subprocess
+ECHO pillow, colorama, pyperclip, pytesseract, keyboard, subprocess, ollama (optional)
 ECHO Do you want to let the setup attempt to install now?
 set /p choice="Do you want to install? (y/n): "
 if /i "%choice%"=="y" (
