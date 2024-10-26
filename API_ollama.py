@@ -1,8 +1,9 @@
 from colorama import Fore, Style, Back
+import subprocess
 print(Style.BRIGHT)
 print(Fore.WHITE)
 from ollama import Client
-file_path = r'C:\snap2it\output.txt'
+file_path = r'C:\snap2it\ai_output.txt'
 with open(file_path, 'r') as file:
     file_content = file.read().strip()
 client = Client(host='http://localhost:11434')
