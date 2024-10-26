@@ -28,7 +28,9 @@ Unlock Hidden Information: Go beyond basic keyword searches. Use Ollama's advanc
 5. Next, install Tesseract-OCR - https://github.com/UB-Mannheim/tesseract/wiki
 6. Once installed, confirm that tesseract.exe is visible in **C:\Program Files\Tesseract-OCR**
 7. Open a new Command Prompt and type the following commands:
-`pip install pillow colorama pyperclip pytesseract keyboard subprocess`
+```
+pip install pillow colorama pyperclip pytesseract keyboard subprocess
+```
 
 
 ## Ollama Setup:
@@ -37,9 +39,13 @@ INSTALL AND SETUP OLLAMA - https://ollama.com/download
 2. Line 9 contains "model='gemma2:9b'" **Replace "gemma2:9b"*8 with the model you have loaded to ollama
 3. Activate ollama for Snap2it in lines 43-47 of ocr.py.
 4. Edit ai_prompt.txt to change the text in front of the captured text
-   Default prompt is: Find the question in the text below and give a simple answer:
-   Default ollama server address: localhost:11434
+   - Default prompt is: Find the question in the text below and give a simple answer:
+   - Default ollama server address: localhost:11434
 
+
+# Screenshots
+
+   ![image](https://github.com/user-attachments/assets/c50fff81-9f1f-42ae-be90-70b37ce6f605)
 
    ![image](https://github.com/user-attachments/assets/2949374c-07ac-46e5-be08-690087910f08)
 
