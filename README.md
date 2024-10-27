@@ -29,7 +29,7 @@ Unlock Hidden Information: Go beyond basic keyword searches. Use Ollama's advanc
 4. Install Python (with PIP) - https://www.python.org/downloads/
    - Once installed, confirm that you have installed by typing `pip --version` in the Command Prompt.
 
-5. Open a new Command Prompt and run the commands below to install all the necessary Python modules:
+5. Run the commands below to install all the necessary Python modules:
 ```
 pip install pillow
 ```
