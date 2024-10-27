@@ -16,7 +16,7 @@ Unlock Hidden Information: Go beyond basic keyword searches. Use Ollama's advanc
    
 2. Create the Snap2It directory.
 > [!IMPORTANT]
-> Without modification this has to be installed/run from "C:\snap2it".
+> Without modification, this must to be installed/run from "C:\snap2it".
 
    ```cmd
    mkdir "C:\snap2it"
