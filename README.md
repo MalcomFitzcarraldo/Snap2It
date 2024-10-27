@@ -23,8 +23,7 @@ Unlock Hidden Information: Go beyond basic keyword searches. Use Ollama's advanc
    ```
 3. Copy the Snap2It files to C:\snap2it
    ```cmd
-   move "%~dp0*" "C:\snap2it"
-   echo You can close this window now.
+   xcopy . "C:\snap2it\" /E /H /C /I
    ```
    
 4. Install Python (with PIP) - https://www.python.org/downloads/
@@ -55,7 +54,7 @@ pip install subprocess
    
 7. Confirm that `tesseract.exe` is visible in `**C:\Program Files\Tesseract-OCR**`
    
-8. Run the following code in cmd to create a **desktop shortcut**: 
+8. Run the following code in cmd **(as admin)** to create a **desktop shortcut**: 
 - Windows (Standard)
 ```cmd
 cmd /k mklink "C:\Users\%USERNAME%\Desktop\Snap2It.lnk" "C:\snap2it\Snap2It.bat"
