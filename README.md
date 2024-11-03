@@ -87,8 +87,9 @@ or Navigate to **C:\snap2it** and open Snap2It.bat
 
    ![image](https://github.com/user-attachments/assets/2949374c-07ac-46e5-be08-690087910f08)
 
-   ![image](https://github.com/user-attachments/assets/76d9e9c5-cf6e-4de7-b3e7-faa7334e0751)![snap]
-   (https://github.com/user-attachments/assets/2ce73994-3fd4-4518-a077-a853bc7eafbc)
+   ![image](https://github.com/user-attachments/assets/76d9e9c5-cf6e-4de7-b3e7-faa7334e0751)
+   
+   ![snap](https://github.com/user-attachments/assets/2ce73994-3fd4-4518-a077-a853bc7eafbc)
 
 
 
