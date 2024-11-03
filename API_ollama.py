@@ -14,3 +14,12 @@ response_stream = client.chat(model='gemma2:9b', messages=[{
 
 for chunk in response_stream:
     print(chunk['message']['content'], end='')
+
+print(Fore.RED + Back.BLACK + Style.BRIGHT + "" + Style.RESET_ALL)
+print(Fore.RED + Back.BLACK + Style.BRIGHT + "Press ENTER to RESET" + Style.RESET_ALL)
+print(Fore.YELLOW + Back.RED + Style.BRIGHT + "Press ENTER to RESET response and start a new snap." + Style.RESET_ALL)
+print(Fore.RED + Back.BLACK + Style.BRIGHT + "Press ENTER to RESET" + Style.RESET_ALL)
+input()
+
+subprocess.run(["python", "C:/snap2it/watcher.py"])
+quit()
