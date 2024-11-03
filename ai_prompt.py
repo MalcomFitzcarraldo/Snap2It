@@ -12,6 +12,6 @@ with open(output_file_path, 'w') as output_file:
 
 print(Back.BLUE)
 print(Style.BRIGHT)
-print(Fore.WHITE + "Ollama Activated.")
+print(Fore.WHITE + "Ollama Response:")
 print(Style.RESET_ALL)
 subprocess.run(["python", "C:/snap2it/API_ollama.py"])
